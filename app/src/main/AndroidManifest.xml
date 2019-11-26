@@ -15,9 +15,13 @@
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
 
-<!--        <activity android:name="com.google.android.gms.ads.AdActivity"-->
-<!--            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"/>-->
-        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+
+       <!-- Major Differences:
+        ca-app-pub-3940256099942544/6300978111  <- Test AppID    (has Tilde ~)
+        ca-app-pub-3940256099942544~3347511713  <- Test AdUnitID (has forward slash /)-->
+
+       <!-- Use AppID here - Found in AdmobPage->App->AppSettings->AppID -->
+       <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713"/>
