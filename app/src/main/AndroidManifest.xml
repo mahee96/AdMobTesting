@@ -17,8 +17,8 @@
 
 
        <!-- Major Differences:
-        ca-app-pub-3940256099942544/6300978111  <- Test AppID    (has Tilde ~)
-        ca-app-pub-3940256099942544~3347511713  <- Test AdUnitID (has forward slash /)-->
+        ca-app-pub-3940256099942544~3347511713  <- Test AppID    (has Tilde ~)
+        ca-app-pub-3940256099942544/6300978111  <- Test AdUnitID (has forward slash /)-->
 
        <!-- Use AppID here - Found in AdmobPage->App->AppSettings->AppID -->
        <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
